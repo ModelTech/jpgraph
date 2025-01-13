@@ -747,6 +747,9 @@ class Image
             $y += $dir == 0 ? $h / 2 : $w / 2;
         }
 
+        $x = round($x);
+        $y = round($y);
+
         $use_font = $this->font_family;
 
         if ($dir == 90) {
