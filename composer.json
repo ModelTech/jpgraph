@@ -21,12 +21,13 @@
         "ergebnis/composer-normalize": "^2.13",
         "ergebnis/php-cs-fixer-config": "^2.13",
         "kint-php/kint": "^3.3",
-        "monolog/monolog": "^2.0",
+        "monolog/monolog": "^3.9",
         "overtrue/phplint": "^2.3",
         "squizlabs/php_codesniffer": "^3.6",
-        "symfony/dotenv": "^4.0 || ^5.0",
-        "symfony/event-dispatcher": "^4.0 || ^5.0",
-        "symfony/yaml": "^4.0 || ^5.0"
+        "symfony/dotenv": "^4.0 || ^5.0 || ^6.0 || ^7.0",
+        "symfony/event-dispatcher": "^4.0 || ^5.0 || ^6.0 || ^7.0",
+        "symfony/yaml": "^4.0 || ^5.0 || ^6.0 || ^7.0",
+        "rector/rector": "^2.0.11"
     },
     "extra": {
         "composer-normalize": {
@@ -63,6 +64,11 @@
         "coverage": "XDEBUG_MODE=coverage php vendor/bin/codecept run unit --coverage --coverage-xml"
     },
     "support": {
-        "issues": "https://github.com/huasofoundries/jpgraph/issues"
+        "issues": "https://github.com/modeltech/jpgraph/issues"
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        }
     }
 }

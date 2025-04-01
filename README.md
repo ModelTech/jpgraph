@@ -1,5 +1,5 @@
 
-<h1 align="center">JpGraph Community Edition v4.1.0</h1>
+<h1 align="center">JpGraph Community Edition v4.2.0</h1>
 
 <p align="center">
 <a href="https://packagist.org/packages/modeltech/jpgraph">
@@ -30,7 +30,11 @@ Refactoring is an ongoing effort and we ensure editions and additions don't hurt
       </a>
     </p>
 
---------
+
+# Based on [amenadiel/jpgraph](https://github.com/HuasoFoundries/jpgraph) and its fork [naas/jpgraph](https://github.com/nunoarmando/jpgraph.git)  with support php-8
+
+The `amenadiel/jpgraph` - is apparently abandoned.
+
 ## What is JPGraph Community Edition?
 
 As can be seen in [their releases section](https://jpgraph.net/download/release.php), there was a six year pause in JPGraph release cycle, during which some of us had no choice but to code our way out of PHP 5.x. And thus "Community Edition" was born. From then on, this library evolved on its own and completely diverged from the official packages.
