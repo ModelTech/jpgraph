@@ -4,7 +4,7 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Graph;
+namespace ModelTech\JpGraph\Graph;
 
 /**
  * @class CanvasScale

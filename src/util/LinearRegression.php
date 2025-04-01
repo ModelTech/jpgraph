@@ -4,7 +4,7 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Util;
+namespace ModelTech\JpGraph\Util;
 
 define('__LR_EPSILON', 1.0e-8);
 /**

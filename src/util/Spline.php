@@ -4,7 +4,7 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Util;
+namespace ModelTech\JpGraph\Util;
 
 /**
  * File:        JPGRAPH_REGSTAT.PHP

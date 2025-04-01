@@ -5,9 +5,9 @@
  */
 
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
-use Amenadiel\JpGraph\Text;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
+use ModelTech\JpGraph\Text;
 
 $__width  = 0;
 $__height = 0;

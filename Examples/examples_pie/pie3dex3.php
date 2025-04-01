@@ -5,8 +5,8 @@
  */
 
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
 
 // Some data
 $data = [20, 27, 45, 75, 90];

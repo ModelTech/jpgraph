@@ -4,7 +4,7 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Util;
+namespace ModelTech\JpGraph\Util;
 
 //
 // A wrapper class that is used to access the specified error object

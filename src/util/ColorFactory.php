@@ -4,7 +4,7 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Util;
+namespace ModelTech\JpGraph\Util;
 
 // Provide a deterministic list of new colors whenever the getColor() method
 // is called. Used to automatically set colors of plots.

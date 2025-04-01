@@ -6,9 +6,9 @@
 
 require_once __DIR__ . '/../../src/config.inc.php';
 
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
-use Amenadiel\JpGraph\Themes;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
+use ModelTech\JpGraph\Themes;
 
 $theme = isset($_GET['theme']) ? $_GET['theme'] : null;
 

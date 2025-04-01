@@ -7,8 +7,8 @@
 // $Id: piec_csimex1.php,v 1.1.2.1 2003/10/09 21:05:39 aditus Exp $
 // Example of pie with center circle
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
 
 // Some data
 $data = [50, 28, 25, 27, 31, 20];

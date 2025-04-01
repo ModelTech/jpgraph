@@ -6,7 +6,7 @@
 
 require_once __DIR__ . '/../../src/config.inc.php';
 
-use Amenadiel\JpGraph\Graph;
+use ModelTech\JpGraph\Graph;
 
 // Define work space
 $xmax = 40;

@@ -5,8 +5,8 @@
  */
 
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
 
 $datay = [20, 22, 12, 13, 17, 20, 16, 19, 30, 31, 40, 43];
 

@@ -5,8 +5,8 @@
  */
 
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
 
 $datay1 = [11, 7, 5, 8, 3, 5, 5, 4, 8, 6, 5, 5, 3, 2, 5, 1, 2, 0];
 $datay2 = [4, 5, 4, 5, 6, 5, 7, 4, 7, 4, 4, 3, 2, 4, 1, 2, 2, 1];

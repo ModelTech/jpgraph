@@ -12,8 +12,8 @@ if (DEBUGMODE) {
     error_reporting(E_ALL);
 }
 
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
 
 // Some data
 $data = [50, 28, 25, 27, 31, 20];

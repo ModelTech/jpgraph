@@ -6,8 +6,8 @@
 
 // Gantt example
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
 
 // Create the basic graph
 $graph = new Graph\GanttGraph();

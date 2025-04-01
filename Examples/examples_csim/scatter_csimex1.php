@@ -5,8 +5,8 @@
  */
 
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
 
 // Some data for the points
 $datax = [3.5, 13.7, 3, 4, 6.2, 6, 3.5, 8, 14, 8, 11.1, 13.7];

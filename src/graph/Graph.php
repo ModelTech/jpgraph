@@ -4,14 +4,14 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Graph;
+namespace ModelTech\JpGraph\Graph;
 
 require_once __DIR__ . '/../config.inc.php';
 
-use Amenadiel\JpGraph\Image;
-use Amenadiel\JpGraph\Plot;
-use Amenadiel\JpGraph\Text;
-use Amenadiel\JpGraph\Util;
+use ModelTech\JpGraph\Image;
+use ModelTech\JpGraph\Plot;
+use ModelTech\JpGraph\Text;
+use ModelTech\JpGraph\Util;
 
 /**
  * @class Graph
@@ -214,7 +214,7 @@ class Graph
             $this->inputValues['aTimeout']    = $aTimeout;
             $this->inputValues['aInline']     = $aInline;
 
-            $theme_class = '\Amenadiel\JpGraph\Themes\\' . DEFAULT_THEME_CLASS;
+            $theme_class = '\ModelTech\JpGraph\Themes\\' . DEFAULT_THEME_CLASS;
 
             if (class_exists($theme_class)) {
                 $this->graph_theme = new $theme_class();

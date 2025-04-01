@@ -4,11 +4,11 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Plot;
+namespace ModelTech\JpGraph\Plot;
 
 require_once __DIR__ . '/../config.inc.php';
 
-use Amenadiel\JpGraph\Util;
+use ModelTech\JpGraph\Util;
 
 /**
  * @class Plot

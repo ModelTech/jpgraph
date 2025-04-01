@@ -5,9 +5,9 @@
  */
 
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
-use Amenadiel\JpGraph\Text;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
+use ModelTech\JpGraph\Text;
 
 $datay = [2, 3, 5, 8, 12, 6, 3];
 $datax = ['320x240', '640x480', '600x800', '1024x768', '1280x1024(16)', '1280x1024(32)',

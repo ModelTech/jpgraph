@@ -1,5 +1,5 @@
 <?php
-namespace Amenadiel\JpGraph\Text;
+namespace ModelTech\JpGraph\Text;
 
 /**
  * File:        JPGRAPH_GB2312.PHP

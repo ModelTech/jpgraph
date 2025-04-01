@@ -4,7 +4,7 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Plot;
+namespace ModelTech\JpGraph\Plot;
 
 /**
  * File:        JPGRAPH_WINDROSE.PHP

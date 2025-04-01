@@ -13,7 +13,7 @@
  * // Copyright (c) Asial Corporation. All rights reserved.
  */
 
-namespace Amenadiel\JpGraph\Image;
+namespace ModelTech\JpGraph\Image;
 
 class ImgData_Diamonds extends ImgData
 {

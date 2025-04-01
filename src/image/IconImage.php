@@ -4,10 +4,10 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Image;
+namespace ModelTech\JpGraph\Image;
 
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Util;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Util;
 
 /**
  * @class IconImage

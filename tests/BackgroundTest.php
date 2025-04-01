@@ -10,11 +10,11 @@ use Codeception\Util\Debug;
  * @group ready
  *
  * @internal
- * 
+ *
  */
 class BackgroundTest extends \Codeception\Test\Unit
 {
-    use Amenadiel\JpGraph\UnitTest\UnitTestTrait;
+    use ModelTech\JpGraph\UnitTest\UnitTestTrait;
 
     public static $fixTures = [
         'testUsingBackgroundImage' => [

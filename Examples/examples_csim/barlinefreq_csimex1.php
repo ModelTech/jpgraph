@@ -8,8 +8,8 @@
 // Example of CSIM frequence bar that uses the cache
 //
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
 
 // Utility function to calculate the accumulated frequence
 // for a set of values and ocurrences

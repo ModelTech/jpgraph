@@ -4,7 +4,7 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Util;
+namespace ModelTech\JpGraph\Util;
 
 /*
  * File:        JPGRAPH_ERRHANDLER.PHP
@@ -112,7 +112,7 @@ class ErrMsgText
 
 // Setup the default handler
 global $__jpg_OldHandler;
-$__jpg_OldHandler = set_exception_handler(['Amenadiel\JpGraph\Util\JpGraphException', 'defaultHandler']);
+$__jpg_OldHandler = set_exception_handler(['ModelTech\JpGraph\Util\JpGraphException', 'defaultHandler']);
 
 if (!USE_IMAGE_ERROR_HANDLER) {
     JpGraphError::SetImageFlag(false);

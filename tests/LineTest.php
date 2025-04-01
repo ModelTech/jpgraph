@@ -8,11 +8,11 @@
  * @group ready
  *
  * @internal
- * 
+ *
  */
 class LineTest extends \Codeception\Test\Unit
 {
-    use Amenadiel\JpGraph\UnitTest\UnitTestTrait;
+    use ModelTech\JpGraph\UnitTest\UnitTestTrait;
 
     public static $fixTures = [];
 

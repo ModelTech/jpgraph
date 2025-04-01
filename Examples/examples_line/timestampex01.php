@@ -6,8 +6,8 @@
 
 // Example on how to treat and format timestamp as human readable labels
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
 
 // Number of "fake" data points
 define('NDATAPOINTS', 500);

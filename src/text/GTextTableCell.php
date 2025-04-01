@@ -4,10 +4,10 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Text;
+namespace ModelTech\JpGraph\Text;
 
-use Amenadiel\JpGraph\Plot;
-use Amenadiel\JpGraph\Util;
+use ModelTech\JpGraph\Plot;
+use ModelTech\JpGraph\Util;
 
 /*
  * File:        JPGRAPH_TABLE.PHP

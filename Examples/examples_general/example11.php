@@ -5,9 +5,9 @@
  */
 
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
-use Amenadiel\JpGraph\Util;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
+use ModelTech\JpGraph\Util;
 
 $ydata  = [11, 3, 8, 12, 5, 1, 9, 13, 5, 7];
 $ydata2 = [1, 19, 15, 7, 22, 14, 5, 9, 21, 13];

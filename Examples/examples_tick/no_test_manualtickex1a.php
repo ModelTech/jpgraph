@@ -9,8 +9,8 @@
 // at the start of each month.
 //
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
 
 //
 // Create some random data for the plot. We use the current time for the

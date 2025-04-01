@@ -6,8 +6,8 @@
 
 // $Id: balloonex1.php,v 1.5 2002/12/15 16:08:51 aditus Exp $
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
 
 // Some data
 $datax = [1, 2, 3, 4, 5, 6, 7, 8];

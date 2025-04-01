@@ -1,4 +1,4 @@
-namespace: Amenadiel\JpGraph\UnitTest
+namespace: ModelTech\JpGraph\UnitTest
 suites:
   unit:
     path: .

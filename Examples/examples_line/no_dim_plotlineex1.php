@@ -5,8 +5,8 @@
  */
 
 require_once __DIR__ . '/../../vendor/autoload.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
 
 $datay = [2, 3, 5, 8.5, 11.5, 6, 3];
 

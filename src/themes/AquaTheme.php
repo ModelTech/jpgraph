@@ -4,7 +4,7 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Themes;
+namespace ModelTech\JpGraph\Themes;
 
 /**
  * Aqua Theme class.

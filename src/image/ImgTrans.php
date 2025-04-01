@@ -4,9 +4,9 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Image;
+namespace ModelTech\JpGraph\Image;
 
-use Amenadiel\JpGraph\Util;
+use ModelTech\JpGraph\Util;
 
 /**
  * File:        JPGRAPH_IMGTRANS.PHP

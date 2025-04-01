@@ -4,7 +4,7 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Graph;
+namespace ModelTech\JpGraph\Graph;
 
 /*
  * File:        JPGRAPH_RADAR.PHP
@@ -14,7 +14,7 @@ namespace Amenadiel\JpGraph\Graph;
  * //
  * // Copyright (c) Asial Corporation. All rights reserved.
  */
-use Amenadiel\JpGraph\Plot;
+use ModelTech\JpGraph\Plot;
 
 /**
  * @class RadarGrid

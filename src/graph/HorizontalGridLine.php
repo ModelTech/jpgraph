@@ -4,7 +4,7 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Graph;
+namespace ModelTech\JpGraph\Graph;
 
 define('GANTT_HGRID1', 0);
 define('GANTT_HGRID2', 1);

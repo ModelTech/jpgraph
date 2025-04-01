@@ -2,11 +2,11 @@
 <h1 align="center">JpGraph Community Edition v4.1.0</h1>
 
 <p align="center">
-<a href="https://packagist.org/packages/amenadiel/jpgraph">
-<img src="https://img.shields.io/packagist/v/amenadiel/jpgraph">
+<a href="https://packagist.org/packages/modeltech/jpgraph">
+<img src="https://img.shields.io/packagist/v/modeltech/jpgraph">
 </a>
-<a href="https://packagist.org/packages/amenadiel/jpgraph">
-<img src="https://img.shields.io/packagist/dm/amenadiel/jpgraph.svg">
+<a href="https://packagist.org/packages/modeltech/jpgraph">
+<img src="https://img.shields.io/packagist/dm/modeltech/jpgraph.svg">
 </a>
 <a href="https://app.fossa.io/projects/git%2Bgithub.com%2FHuasoFoundries%2Fjpgraph?ref=badge_shield">
 <img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FHuasoFoundries%2Fjpgraph.svg?type=shield">
@@ -37,7 +37,7 @@ As can be seen in [their releases section](https://jpgraph.net/download/release.
 
 In general terms, JPGraph CE relies in PHP's thriving ecosystem. We aim to be a simple dependency you can seamlessly integrate in your app. JPGraph CE aligns with [PHP Standards Reccomendations](https://www.php-fig.org/psr/) as published by the [PHP Framework Interoperability Group](https://www.php-fig.org/), and when presented with the choice, will always pick an agnostic implementation over custom ones that reinvent the wheel. A lot of code has been trimmed and refactored with this purpose and a lot more is waiting to undergo such a change.
 
-- Distrbution through PHP's popular [Packagist Registry](https://packagist.org/packages/amenadiel/jpgraph)
+- Distrbution through PHP's popular [Packagist Registry](https://packagist.org/packages/modeltech/jpgraph)
 - Relies in [Composer](https://getcomposer.org/), so you don't need to manually download or copy anything, nor check for platform and dependency requirements yourself.
 - [PSR-4: Autoloader](https://www.php-fig.org/psr/psr-4/) compliant structure. No need to resort to `require` or `include` in your code.
 - Sensible fallbacks to handle missing fonts or particular GD version features availability.
@@ -67,12 +67,12 @@ This version requires PHP v7.2.0+. If you need to install this library package i
 Install it Using composer
 
 ```sh
-composer require amenadiel/jpgraph:^4
+composer require modeltech/jpgraph:^4
 ```
 
 ## How to use
 
-See the [examples folder](https://github.com/amenadiel/jpgraph/tree/master/Examples) for working samples.
+See the [examples folder](https://github.com/modeltech/jpgraph/tree/master/Examples) for working samples.
 
 The examples work the same way you should use this library:
 
@@ -85,8 +85,8 @@ The examples work the same way you should use this library:
 ```php
    require_once 'PATH/TO/vendor/autoload.php';
 
-   use Amenadiel\JpGraph\Graph;
-   use Amenadiel\JpGraph\Plot;
+   use ModelTech\JpGraph\Graph;
+   use ModelTech\JpGraph\Plot;
 
    // Create the Pie Graph.
    $graph = new Graph\PieGraph(350, 250);

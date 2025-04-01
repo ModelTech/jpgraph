@@ -4,7 +4,7 @@
  * JPGraph - Community Edition
  */
 
-namespace Amenadiel\JpGraph\UnitTest;
+namespace ModelTech\JpGraph\UnitTest;
 
 use Codeception\Util\Debug;
 use Symfony\Component\Yaml\Yaml;

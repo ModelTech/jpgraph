@@ -6,8 +6,8 @@
 
 // $Id: barintex1.php,v 1.3 2002/07/11 23:27:28 aditus Exp $
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
 
 // Some data
 $datay = [1, 1, 0.5];

@@ -4,9 +4,9 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Text;
+namespace ModelTech\JpGraph\Text;
 
-use Amenadiel\JpGraph\Util;
+use ModelTech\JpGraph\Util;
 
 /**
  * @class GTextTable

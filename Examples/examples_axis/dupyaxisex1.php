@@ -6,9 +6,9 @@
 
 require_once __DIR__ . '/../../src/config.inc.php';
 
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
-use Amenadiel\JpGraph\Util;
+use ModelTech\JpGraph\Graph;
+use ModelTech\JpGraph\Plot;
+use ModelTech\JpGraph\Util;
 
 $f                   = new Util\FuncGenerator('cos($i)', '$i*$i*$i');
 list($xdata, $ydata) = $f->E(-M_PI, M_PI, 25);

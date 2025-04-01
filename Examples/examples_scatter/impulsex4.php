@@ -5,9 +5,9 @@
  */
 
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
+use ModelTech\JpGraph\Graph;
 //require_once 'jpgraph/jpgraph_scatter.php';
-use Amenadiel\JpGraph\Plot;
+use ModelTech\JpGraph\Plot;
 
 $numpoints = 50;
 $k         = 0.05;

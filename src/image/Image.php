@@ -4,12 +4,12 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Image;
+namespace ModelTech\JpGraph\Image;
 
-use Amenadiel\JpGraph\Text\LanguageConv;
-use Amenadiel\JpGraph\Text\TTF;
-use Amenadiel\JpGraph\Util;
-use Amenadiel\JpGraph\Util\ErrMsgText;
+use ModelTech\JpGraph\Text\LanguageConv;
+use ModelTech\JpGraph\Text\TTF;
+use ModelTech\JpGraph\Util;
+use ModelTech\JpGraph\Util\ErrMsgText;
 
 // load fonts only once, and define a constant for them
 define("GD_FF_FONT0", imageloadfont(dirname(dirname(__FILE__)) . '/fonts/FF_FONT0.gdf'));

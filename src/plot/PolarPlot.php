@@ -4,9 +4,9 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Plot;
+namespace ModelTech\JpGraph\Plot;
 
-use Amenadiel\JpGraph\Util;
+use ModelTech\JpGraph\Util;
 
 /*
  * File:        JPGRAPH_POLAR.PHP
